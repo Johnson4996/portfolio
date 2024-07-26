@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Workout Tracker",
+        "description": "My first React Native project. An iOS app that provides a simple way to keep track of your daily exercises. Built with React Native using Expo, typescript and sqlite.",
+        "image": "https://picsum.photos/200/300?random=3",
+        "tags": ["React", "Sqlite", "Typescript", "HTML", "CSS", "ERD"],
+        "links":{
+            "github": "https://github.com/Johnson4996/WorkoutTracker",
+            "demo":""
+        }
+    },
+    {
+        "name": "Cookbook.",
+        "description": "Demo application to view and share recipes with others. Front and back end built with React and python/django. Also utilizes the spoonacular API to search and favorite recipes.",
+        "image": "https://picsum.photos/200/300?random=3",
+        "tags": ["React", "Python", "Django", "HTML", "CSS", "ERD"],
+        "links":{
+            "github": "https://github.com/Johnson4996/Cookbook",
+            "demo":""
+        }
+    },
+    {
+        "name": "ScubaLog",
+        "description": "One of my first Projects, and one that I'm passionate about. Scubalog is a way for divers to digitally log their dives. An update is in the works utilizing a more modern tech stack with NextJS, TailwindCSS and PostgreSQL. ",
+        "image": "https://picsum.photos/200/300?random=1",
+        "tags": ["React", "Javascript", "HTML", "CSS"],
+        "links":{
+            "github": "https://github.com/Johnson4996/ScubaLog",
+            "demo":""
+        }
+    },
+    {
+        "name": "fb-sync",
+        "description": "CLI tool I built to sync 2 firestore databases that belong to different projects. I initailly built this tool to sync my current company's development firestore collections with our production firestore collections instead of doing it manually.",
+        "image": "https://picsum.photos/200/300?random=2",
+        "tags": ["Node.js, Firebase"],
+        "links":{
+            "github": "https://github.com/Johnson4996/fb-sync",
+            "demo":""
+        }
+    },
+    {
+        "name": "This Page",
+        "description": "This portfolio site you're on right now! Built from scratch with React and TailwindCSS. Data is populated via JSON for ease of maintenance in the future.",
+        "image": "https://picsum.photos/200/300?random=2",
+        "tags": ["React, TailwindCSS"],
+        "links":{
+            "github": "",
+            "demo":""
+        }
+    } 
+   
+]
