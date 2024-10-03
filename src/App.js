@@ -1,9 +1,10 @@
 
 import './App.css';
-import { Hero } from './components/Hero';
-import { NavBar } from './components/NavBar';
-import { Project } from './components/Project';
+import { Hero } from './sections/Hero';
+import { NavBar } from './sections/NavBar';
+import { Project } from './sections/Project';
 import projects  from './assets/data/projects.json'
+import { Contact } from './sections/Contact';
 
 function App() {
   return (
@@ -13,11 +14,15 @@ function App() {
         <Hero />
       </section>
       <hr/>
-      <section className="pt-10 min-h-screen">
-      <div className="mb-10">
+      <div className="mb-10 mt-10">
           <h1 className="text-3xl font-extrabold ">Projects</h1>
         </div>
+      <section>
         <Project projects={projects}/>
+      </section>
+      <hr/>
+      <section>
+        <Contact />
       </section>
       
     </div>

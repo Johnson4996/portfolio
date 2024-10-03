@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 
 
-const useTypewriter = (text, speed = 20) => {
+const useTypewriter = (text, speed) => {
     const [displayText, setDisplayText] = useState("");
 
     useEffect(() => {
@@ -10,7 +10,8 @@ const useTypewriter = (text, speed = 20) => {
         let i = 0;
     const typingInterval = setInterval(() => {
       if (i < text.length) {
-        setDisplayText(prevText => prevText + text.charAt(i));
+        const letter = text.charAt(i);
+        setDisplayText(prevText => prevText + letter);
         i++;
       } else {
         clearInterval(typingInterval);
