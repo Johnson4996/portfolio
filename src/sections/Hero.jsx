@@ -3,7 +3,7 @@ import { Typewriter } from '../utils/Typewriter';
 
 export const Hero = () => {
     return (
-        <div className="flex flex-col items-left justify-center h-full gap-2 overflow-hidden">
+        <div id="home" className="flex flex-col items-left justify-center h-full gap-2 overflow-hidden">
             <h1 id="text-title" className="text-6xl font-bold text-accent"><Typewriter text="Hi, I'm Sam." speed={50}/></h1>
             <br/>
             <p id='text-desc' className="text-2xl"><Typewriter text="I'm a software developer based in Nashville, TN" speed={25}/></p>

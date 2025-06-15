@@ -1,6 +1,6 @@
 export const Project = ({ projects }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div id="projects" className="flex flex-col items-center">
       {projects.map((project, idx) => (
         <div
           key={project.id}
