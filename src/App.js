@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App text-gray-700 ">
       <section className="h-screen bg-cover bg-center bg-fixed flex-col items-center justify-center font-bold relative overflow-hidden">
-        <NavBar />
+        {/* <NavBar /> */}
         <Hero />
       </section>
       <hr/>

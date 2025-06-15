@@ -10,8 +10,8 @@ export const Hero = () => {
             <br/>
             <div className="flex gap-2 text-center text-xl mt-3">
                 {/* maybe icons below */}
-                <p className="text-green-500">Github</p>
-                <p className="text-blue-500">Linkedin</p>
+                <a href="https://github.com/Johnson4996" className="text-github hover:underline">Github</a>
+                <a href="https://www.linkedin.com/in/samjohnson/" className="text-blue-500 hover:underline">Linkedin</a>
             </div>
         </div>
     )
